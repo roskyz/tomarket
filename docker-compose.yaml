@@ -1,0 +1,16 @@
+services:
+  pomodoro:
+    container_name: pomodoro
+    image: slychang/tomarket:v0.0.1
+    environment:
+      BASE_URL: "https://bark.local"
+      DEVICE_KEY: "xxxx"
+      ICON_URL: "https://bark.local/pomodoro.png"
+      CYCLE: 35
+      SHORT_BREAK_TITLE: ""
+      SHORT_BREAK_REMINDER: ""
+      LONG_BREAK_TITLE: ""
+      LONG_BREAK_REMINDER: ""
+      CYCLE_TITLE: ""
+      CYCLE_REMINDER: ""
+
